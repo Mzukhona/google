@@ -11,8 +11,8 @@ class App{
         
         this.note=[];
 
-        this.$activeform=  document.querySelector(".note-taking");
-        this.$inActiveform=  document.querySelector(".active-form");
+        this.$activeform=  document.querySelector(" .active-form");
+        this.$inActiveform=  document.querySelector(".inactive-form");
         this.$notes = document.querySelector("#notes")
         
        
